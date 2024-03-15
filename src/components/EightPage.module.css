@@ -1,0 +1,80 @@
+.main {
+  width: 100%;
+}
+
+.main .halfpage {
+  width: 100%;
+  height: 40%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0ded0;
+}
+.main .halfpage h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-weight: 500;
+}
+.main .halfpage .insert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.main .halfpage .insert input {
+  background-color: transparent;
+  font-size: 1.1vw;
+  padding: 0.2% 2%;
+  outline: none;
+}
+footer {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  color: white;
+  padding: 5% 20%;
+  position: relative;
+}
+
+footer .flw {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  top: 10%;
+  right: 1%;
+  opacity: 40%;
+  z-index: 3;
+}
+
+footer .footercontent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .footercontent h1 {
+  font-size: 2vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer .footercontent ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+footer .footercontent ul li {
+  margin-bottom: 5px;
+}
+
+hr {
+  color: lightgray;
+  margin-top: 20px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 14px;
+}

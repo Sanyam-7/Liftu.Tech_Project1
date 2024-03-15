@@ -1,0 +1,59 @@
+.main {
+  width: 100%;
+  position: relative;
+}
+.flw {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  top: -20%;
+  right: 1%;
+  opacity: 10%;
+  z-index: 3;
+}
+.flw1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  top: -20%;
+  right: 0%;
+  z-index: 5;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.contentdiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.contentdiv .cart img {
+  width: 200px;
+  height: 200px;
+}
+
+.contentdiv .cart h1 {
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+}
+.contentdiv .cart h2 {
+  font-size: 1.6vw;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.contentdiv .cart button {
+  font-size: 1.3vw;
+  padding: 5px 30px;
+  background-color: transparent;
+  width: 100%;
+  margin-top: 5%;
+}

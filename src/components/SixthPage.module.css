@@ -1,0 +1,87 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 20%;
+  position: relative;
+}
+.barrow {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 3vw;
+  color: rgb(132, 131, 131);
+}
+.farrow {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 3vw;
+  color: rgb(132, 131, 131);
+}
+.heading h3 {
+  font-size: 1.4vw;
+  color: gray;
+  font-weight: 400;
+}
+.heading h1 {
+  font-size: 2.5vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+  gap: 10%;
+  margin-top: 4%;
+}
+
+.container .cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .cart h1 {
+  font-size: 2vw;
+  font-weight: 400;
+  margin-top: 4%;
+}
+.container .cart h3 {
+  font-size: 1.6vw;
+  font-weight: 400;
+  margin-top: 4%;
+}
+
+.container .cart button {
+  width: 100%;
+  padding: 3% 20%;
+  background-color: transparent;
+  margin-top: 4%;
+}
+.container .cart .imgdiv1 {
+  width: 250px;
+  height: 350px;
+  border-bottom-left-radius: 50px;
+  background-image: url(https://images.unsplash.com/photo-1581524475712-e43ca043e144?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 10px rgb(90, 90, 90);
+}
+.container .cart .imgdiv2 {
+  width: 250px;
+  height: 350px;
+  border-bottom-left-radius: 50px;
+  background-image: url(https://images.unsplash.com/photo-1579726670131-487ecc8e1e8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 10px rgb(90, 90, 90);
+}
+.container .cart .imgdiv3 {
+  width: 250px;
+  height: 350px;
+  border-bottom-left-radius: 50px;
+  background-image: url(https://images.unsplash.com/photo-1584377334016-464803e03b80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 10px rgb(90, 90, 90);
+}
